@@ -1,0 +1,78 @@
+body{
+  margin:0;
+}
+#header{
+ display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: black;
+  height: 110px;
+}
+.logo-link{
+  width: 100px;
+  margin-right: 350px;
+}
+.logo{
+  width: 100px;
+  margin-right: 350px;
+  margin-left: 20px;
+}
+.buttons-logo{
+  height: 40px;
+  margin-right:24px;
+  background-color: white;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  box-shadow: 2px 0px 5px rgba(0,0,0,0.9);
+  z-index: 100;
+}
+.button-container{
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+width: 140px;
+background-color: #fa4454;
+color: white;
+padding-left: 0px;
+border: none;
+height: 40px;
+font-family: 'Chillax', sans-serif;
+font-size: 17px;
+font-weight: 500;
+border-bottom-left-radius: 12px;
+border-top-right-radius: 12px;
+cursor: pointer;
+}
+.roles,.agents,.maps,.modes{
+  margin-right: 100px;
+  text-decoration: none;
+}
+.page-container{
+  background-image: linear-gradient(
+    rgba(4,9,30,0.7),rgba(4,9,30,0.7)),
+    url(background/wp6656047-valorant-4k-wallpapers.png);
+  background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    border: none;
+    height: 582px;
+}
+.title{
+  font-family: 'Chillax', sans-serif;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  font-weight:500;
+}
+.game-description{
+  font-family: 'Chillax', sans-serif;
+  color: white;
+  font-size: 19px;
+  height: 500px;
+  width: 970px;
+  margin-left: 190px;
+}

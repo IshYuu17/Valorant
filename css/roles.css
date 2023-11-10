@@ -1,0 +1,110 @@
+body{
+  margin:0;
+}
+#header{
+ display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: black;
+  height: 110px;
+}
+.logo-link{
+  width: 100px;
+  margin-right: 350px;
+}
+.logo{
+  width: 100px;
+  margin-right: 350px;
+  margin-left: 20px;
+}
+.buttons-logo{
+  height: 40px;
+  margin-right:24px;
+  background-color: white;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  box-shadow: 2px 0px 5px rgba(0,0,0,0.9);
+  z-index: 100;
+}
+.button-container{
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+width: 140px;
+background-color: #fa4454;
+color: white;
+padding-left: 0px;
+border: none;
+height: 40px;
+font-family: 'Chillax', sans-serif;
+font-size: 17px;
+font-weight: 500;
+border-bottom-left-radius: 12px;
+border-top-right-radius: 12px;
+cursor: pointer;
+}
+.roles,.agents,.maps,.modes{
+  margin-right: 100px;
+  text-decoration: none;
+}
+.controller-page-container{
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  background-color: #0e1923;
+  height: 350px;
+  font-family: 'Chillax', sans-serif;
+color: white;
+padding-top: 60px;
+}
+.duelest-page-container{
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  background-color: #0e1923;
+  height: 280px;
+  font-family: 'Chillax', sans-serif;
+color: white;
+padding-top: 60px;
+}
+.initiator-page-container{
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  background-color: #0e1923;
+  height: 200px;
+  font-family: 'Chillax', sans-serif;
+color: white;
+padding-top: 60px;
+}
+.sentinel-page-container{
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  background-color: #0e1923;
+  height: 240px;
+  font-family: 'Chillax', sans-serif;
+color: white;
+padding-top: 60px;
+}
+.icon{
+  object-fit: cover;
+  object-position: center;
+  width: 100px;
+  
+}
+.texts{
+display: flex;
+flex-direction: column ;
+}
+.title{
+font-size: 19px;
+font-weight: bold;
+text-decoration: underline;
+margin-bottom: 6px;
+}
+.description{
+  font-weight: 500;
+}
+.line{
+  border: 0;
+  border-top: 2px solid black;
+  margin: 0;
+}
