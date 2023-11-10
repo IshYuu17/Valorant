@@ -43,6 +43,10 @@ font-weight: 500;
 border-bottom-left-radius: 12px;
 border-top-right-radius: 12px;
 cursor: pointer;
+  transition: opacity .2s;
+}
+.button-container:hover{
+  opacity: 0.7;
 }
 .roles,.agents,.maps,.modes{
   margin-right: 100px;
